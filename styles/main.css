@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,600&display=swap');
+
+body{
+    max-width: 1000px;
+    margin: auto;
+}
+
+p {
+    font-size: 15pt; 
+}
+
+#header{
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    background: #081801;
+    color: #8d960d;
+    font-size: 12pt;
+    border-radius: 10px;
+    text-shadow: #278667 6px 6px 20px;
+    border: solid #081801 2px;
+}
+
+#container{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#art-description{
+    width: 100%;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+#survey-form{
+    max-width: 700px;
+    padding: 30px;
+    color: black;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+}
+
+#sec-name{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-name .article-label{
+    margin: 10px;
+}
+
+#name-label{
+    font-size: 15pt;
+}
+
+#name-label small{
+    font-size: 11px;
+    color: #9e3004;
+}
+
+#name{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #1e5e0a;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#name:hover{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #4fe214;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-email{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-email .article-label{
+    margin: 10px;
+}
+
+#email-label{
+    font-size: 15pt; 
+}
+
+#email-label small{
+    font-size: 11px;
+    color: #9e3004;
+}
+
+#email{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #1e5e0a;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#email:hover{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #4fe214;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-number{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-number .article-label{
+    margin: 10px;
+}
+
+#number-label{
+    font-size: 15pt; 
+}
+
+#number-label small{
+    font-size: 11px;
+    color: #9e3004;
+}
+
+#number{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #1e5e0a;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#number:hover{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #4fe214;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-number-tel{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-number-tel .article-label{
+    margin: 10px;
+}
+
+#number-tel-label{
+    font-size: 15pt; 
+}
+
+#number-tel-label small{
+    font-size: 11px;
+    color: #9e3004;
+}
+
+#number-tel{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #1e5e0a;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#number-tel:hover{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #4fe214;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-rol{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-rol .article-label{
+    margin: 10px;
+}
+
+#dropdown{
+    width: 95.884%;
+    padding: 8px;
+    border: solid 3px #1e5e0a;
+    background: #e1eb89;
+    margin: 10px 10px 10px 0px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#dropdown:hover{
+    width: 95.6%;
+    padding: 8px;
+    border: solid 3px #4fe214;
+    background: #e1eb89;
+    margin: 10px 10px 10px 0px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-defina{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-defina .article-label{
+    margin: 10px;
+}
+
+#input-respuesta{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #1e5e0a;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#input-respuesta:hover{
+    width: 90%;
+    padding: 8px;
+    border: solid 3px #4fe214;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-rama{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-rama .article-label{
+    margin: 10px;
+}
+
+#sec-rama #lista-rama li{
+    list-style: none;
+    width: 90%;
+    padding: 8px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-definicion{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-rama .article-label{
+    margin: 10px;
+}
+
+#definición-desplegable{
+    width: 95.884%;
+    padding: 8px;
+    border: solid 3px #1e5e0a;
+    background: #e1eb89;
+    margin: 10px 10px 10px 0px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#definición-desplegable:hover{
+    width: 95.6%;
+    padding: 8px;
+    border: solid 3px #4fe214;
+    background: #e1eb89;
+    margin: 10px 10px 10px 0px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-elementos{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-elementos .article-label{
+    margin: 10px;
+}
+
+#sec-elementos #lista-elementos li{
+    list-style: none;
+    width: 90%;
+    padding: 8px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-comentario{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sec-comentario .article-label{
+    margin: 10px;
+}
+
+#sec-comentario .article-comentario{
+text-align: center;
+}
+
+#comentarios{
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 80%;
+    padding: 8px;
+    border: solid 3px #1e5e0a;
+    background: #e1eb89;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-submit{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#sec-submit #submit{
+    width: 20%;
+    padding: 8px;
+    border: solid 3px #081801;
+    background: #081801;
+    color: white;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+#sec-submit #submit:hover{
+    cursor: pointer;
+    width: 20%;
+    padding: 8px;
+    border: solid 3px #081801;
+    background: #173f06;
+    color: white;
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}

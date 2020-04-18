@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/survey-form/styles/main.css">
+</head>
+
+<body>
+    <header id="header" class="borde">
+        <h1 id="title">CONOCIMIENTOS EN BIOLOGÍA</h1>
+        <h3>Formulario de Encuesta</h3>
+    </header>
+    <main id="container" class="borde">
+        <article class="borde" id="art-description">
+            <p id="description">El siguiente formulario esta diseñado para medir tu nivel de conocimiento en el área de
+                biología <br> ¡Preparad@!...</p>
+        </article>
+        <form id="survey-form" action="survey-form" class="borde">
+            <section id="sec-name">
+                <article class="article-label">
+                    <label id="name-label" for="name">Nombre <small>*obligatorio</small></label>
+                </article>
+                <article class="article-name">
+                    <input id="name" type="text" required placeholder="Ingrese su nombre"></input>
+                </article>
+            </section>
+            <section id="sec-email">
+                <article class="article-label">
+                    <label id="email-label" for="email">Email <small>*obligatorio</small></label>
+                </article>
+                <article>
+                    <input id="email" type="email" inputmode="email" required placeholder="Ingrese su Email"></input>
+                </article>
+            </section>
+            <section id="sec-number">
+                <article class="article-label">
+                    <label id="number-label" for="number">Edad <small>*obligatorio</small></label>
+                </article>
+                <article>
+                    <input id="number" type="number" min="10" max="100" required placeholder="Ingrese su edad"></input>
+                </article>
+            </section>
+            <section id="sec-number-tel">
+                <article class="article-label">
+                    <label id="number-tel-label" for="number-tel">Whatsapp <small>(Opcional)</small></label>
+                </article>
+                <article>
+                    <input id="number-tel" placeholder="(Código de área) Número" type="tel"></input>
+                </article>
+            </section>
+            <section id="sec-rol">
+                <article class="article-label">
+                    <p>¿Que opción describe mejor su rol actual?</p>
+                </article>
+                <article class="article-label">
+                    <select id="dropdown" name="rol" required>
+                        <option disabled selected value="seleccione-su-rol">Seleccione su rol</option>
+                        <option value="estudiante">Estudiante</option>
+                        <option value="empleado">Empleado</option>
+                        <option value="desempleado">Desempleado</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </article>
+            </section>
+            <section id="sec-defina">
+                <article class="article-label">
+                    <p>Defina Biología</p>
+                </article>
+                <article>
+                    <input id="input-respuesta" type="text" required placeholder="Ingrese su respuesta"></input>
+                </article>
+            </section>
+            <section id="sec-rama">
+                <article class="article-label">
+                    <p>¿Que rama de la biología le gusta más?</p>
+                </article>
+                <article id="lista-rama" class="article-label">
+                    <ul>
+                        <li><label for="ecologia"><input id="ecologia" value="ecologia" type="radio"
+                                    name="rama">Ecología</label></li>
+                        <li><label for="genetica"><input id="genetica" value="genetica" type="radio"
+                                    name="rama">Genética</label></li>
+                        <li><label for="microbiologia"><input id="microbiologia" value="microbiologia" type="radio"
+                                    name="rama">Microbiología</label></li>
+                        <li><label for="botanica"><input id="botanica" value="botanica" type="radio"
+                                    name="rama">Botánica</label></li>
+                        <li><label for="zoologia"><input id="zoologia" value="zoologia" type="radio"
+                                    name="rama">Zoología</label></li>
+                        <li><label for="biologia-molecular"><input id="biologia-molecular" value="biologia-molecular"
+                                    type="radio" name="rama">Biología Molecular</label></li>
+                        <li><label for="biologia-marina"><input id="biologia-marina" value="biologia-marina"
+                                    type="radio" name="rama">Biología Marina</label></li>
+                        <li><label for="fisiología"><input id="fisiología" value="fisiologia" type="radio"
+                                    name="rama">Fisiología</label></li>
+                        <li><label for="biología-celular"><input id="biología-celular" value="biologia-celular"
+                                    type="radio" name="rama">Biología Celular</label></li>
+                    </ul>
+                </article>
+            </section>
+            <section id="sec-definicion">
+                <article class="article-label">
+                    <p>¿Cuál es la definición correcta de Biología Molecular</p>
+                </article>
+                <article class="article-label">
+                    <select name="definicion" id="definición-desplegable" required>
+                        <option disabled selected value="seleccione-su-rol">Seleccione la respuesta correcta</option>
+                        <option value="biolodia-del-desarrollo">Estudia todos los procesos celulares que se llevan a
+                            cabo en el desarrollo de un nuevo organismo mediante la reproducción sexual.</option>
+                        <option value="biologia-molecular">Estudia las proteínas y los procesos que llevan a cabo a
+                            partir de ellas, como la síntesis de estos componentes o los procesos relacionados con el
+                            metabolismo.</option>
+                        <option value="biologia-celular">Estudia las estructuras y funciones que llevan a cabo las
+                            células.</option>
+                    </select>
+                </article>
+            </section>
+            <section id="sec-elementos">
+                <article class="article-label">
+                    <p>¿Cuales son los 4 elementos que componen en mayor porcentaje a los seres vivos?</p>
+                </article>
+                <article id="lista-elementos">
+                    <ul>
+                        <li><label for="fosforo"><input id="fosforo" value="fosforo" type="checkbox"
+                                    name="elemento">Fósforo</label></li>
+                        <li><label for="potasio"><input id="potasio" value="potasio" type="checkbox"
+                                    name="elemento">Potasio</label></li>
+                        <li><label for="carbono"><input id="carbono" value="carbono" type="checkbox"
+                                    name="elemento">Carbono</label></li>
+                        <li><label for="nitrogeno"><input id="nitrogeno" value="nitrogeno" type="checkbox"
+                                    name="elemento">Nitrógeno</label></li>
+                        <li><label for="calcio"><input id="calcio" value="calcio" type="checkbox"
+                                    name="elemento">Calcio</label></li>
+                        <li><label for="oxigeno"><input id="oxigeno" value="oxigeno" type="checkbox"
+                                    name="elemento">Oxigeno</label></li>
+                        <li><label for="sodio"><input id="sodio" value="sodio" type="checkbox"
+                                    name="elemento">Sodio</label></li>
+                        <li><label for="hidrogeno"><input id="hidrogeno" value="hidrogeno" type="checkbox"
+                                    name="elemento">Hidrogeno</label></li>
+                    </ul>
+                </article>
+            </section>
+            <section id="sec-comentario">
+                <article class="article-label">
+                    <p>¿Algún comentario o sugerencia?</p>
+                </article>
+                <article class="article-comentario">
+                    <textarea name="comentarios" id="comentarios" placeholder="Ingrese sus comentarios o sugerencias"
+                        cols="100" rows="10"></textarea>
+                </article>
+            </section>
+            <section id="sec-submit">
+                <button id="submit" type="submit"><strong>Enviar</strong></button>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>
